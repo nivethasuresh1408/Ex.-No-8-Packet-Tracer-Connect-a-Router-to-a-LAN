@@ -1,5 +1,5 @@
 # Ex. No: 8   Packet Tracer: Connect a Router to a LAN
-# Date: ___________
+# Date: 27-09-2025
 ________________________________________<br>
 # Objective
 Configure and verify router LAN/WAN interfaces in Cisco Packet Tracer and test end-to-end connectivity.<br>
@@ -112,9 +112,21 @@ ________________________________________<br>
 ________________________________________<br>
 # Output (Attach Screenshots)
 •	show ip interface brief on R1 and R2 (after configuration)<br>
+<img width="1919" height="1012" alt="image" src="https://github.com/user-attachments/assets/8d6e3380-431d-4ab6-855b-70cfed9d5cb1" />
+<img width="1917" height="1012" alt="image" src="https://github.com/user-attachments/assets/adcef817-a2af-430f-a760-dc7e81f6674a" />
+
 •	show ip route on R1 and R2<br>
+<img width="1919" height="1012" alt="image" src="https://github.com/user-attachments/assets/4c1f4b6c-77e3-471c-b635-566182b4a3a6" />
+<img width="1917" height="1012" alt="image" src="https://github.com/user-attachments/assets/2bdb8bf6-94d0-443a-ad8f-3be5fc9f15db" />
+
 •	Successful ping PC1 → PC4; R2 → PC2<br>
+<img width="1919" height="1014" alt="image" src="https://github.com/user-attachments/assets/e3160f23-724d-4c1d-916d-72ce98ad47d7" />
+
 •	Interface up messages after no shutdown on each link <br>
+<img width="1919" height="1013" alt="image" src="https://github.com/user-attachments/assets/9551e49f-c093-4405-ac27-ff3f72cf7f2b" />
+<img width="1919" height="1012" alt="image" src="https://github.com/user-attachments/assets/dcd0bda9-9a0e-4f14-b74e-1e6a6e851d70" />
+<img width="1919" height="1010" alt="image" src="https://github.com/user-attachments/assets/7f7f7325-e8f6-4232-ba3c-aeee03aec2cd" />
+
 ________________________________________<br>
 # Result
 R1 and R2 were configured with correct IPv4 addresses and interface descriptions, links were brought up, routing tables showed connected networks, and end-to-end connectivity between PCs across the WAN link was verified using pings. The configurations were saved to NVRAM for persistence.<br>
